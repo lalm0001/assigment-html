@@ -1,0 +1,55 @@
+/* 1. Inheritance: Set font family and size for the whole page */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+}
+
+/* 2. Select Multiple Elements: Same background for header and footer */
+header, footer {
+    background-color: #f4f4f4;
+    padding: 15px;
+    text-align: center;
+}
+
+/* 3. Class Selector: Change text color of the main heading */
+.site-title {
+    color: #0056b3;
+}
+
+/* 4. Id Selector: Add box-shadow to your image */
+#my-image {
+    box-shadow: 0 0 2px 1px black;
+    margin: 10px 0;
+}
+
+/* 5. Replace bullets with squares in the hobby list */
+main ul {
+    list-style-type: square;
+}
+
+/* 6. nth-child Selector: Add background to odd list items */
+main ul li:nth-child(odd) {
+    background-color: #e2e2e2;
+}
+
+/* 7. Styling the Navigation */
+nav ul {
+    list-style-type: none; 
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    background-color: #ffffff;
+    border: 1px solid #000;
+    padding: 5px 10px;
+}
+
+nav a:hover, nav a:focus {
+    background-color: #cccccc;
+}
